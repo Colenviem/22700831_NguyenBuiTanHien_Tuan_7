@@ -2,32 +2,38 @@
     "menu": [
         {
             "menuName": "Dashboard",
-            "image": "/src/assets/images/Squares four 1.png",
+            "icon": "bx bxs-dashboard",
+            "path": "/dashboard",
             "id": "1"
         },
         {
             "menuName": "Projects",
-            "image": "/src/assets/images/Folder.png",
+            "icon": "bx bx-folder",
+            "path": "/projects",
             "id": "2"
         },
         {
             "menuName": "Teams",
-            "image": "/src/assets/images/Groups.png",
+            "icon": "bx bxl-microsoft-teams",
+            "path": "/teams",
             "id": "3"
         },
         {
-            "menuName": "Analytics",
-            "image": "/src/assets/images/Pie chart.png",
+            "menuName": "Analytics", 
+            "icon": "bx bx-pie-chart-alt-2",
+            "path": "/analytics",
             "id": "4"
         },
         {
             "menuName": "Messages",
-            "image": "/src/assets/images/Chat.png",
+            "icon": "bx bx-message-detail",
+            "path": "/messages",
             "id": "5"
         },
         {
             "menuName": "Integrations",
-            "image": "/src/assets/images/Code.png",
+            "icon": "bx bx-expand-horizontal",
+            "path": "/integrations",
             "id": "6"
         }
     ]

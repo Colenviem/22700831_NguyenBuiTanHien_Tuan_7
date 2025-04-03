@@ -6,6 +6,9 @@ import Header from './components/Header'
 import axios from 'axios'
 import Card from './components/Card'
 import DetailReport from './components/DetailReport'
+import SideBar from './components/SideBar'
+import 'boxicons/css/boxicons.min.css'
+import { Route, Routes } from 'react-router-dom'
 
 const API1 = "http://localhost:3000/menu"
 const API2 = "http://localhost:3001/overview"
@@ -43,19 +46,19 @@ function App() {
   return (
     <div className='flex justify-center'>
       <div className="container">
-      <Header/>
-      <Menu Menu={menu}/>
-      <div className="content">
-        <div>
-          <h1>Overview</h1>
+        <Header/>
+        <SideBar Menu = {menu}></SideBar>
+        <div className="content">
+          <div>
+            <h1>Overview</h1>
+          </div>
+          <Card Card={overview}></Card>
+          <div>
+            <h1>Detailed report</h1>
+          </div>
+          <DetailReport Customers={customers}></DetailReport>
         </div>
-        <Card Card={overview}></Card>
-        <div>
-          <h1>Detailed report</h1>
-        </div>
-        <DetailReport Customers={customers}></DetailReport>
       </div>
-    </div>
     </div>
   )
 }

@@ -1,0 +1,59 @@
+.sidebar{
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    padding: 20px 16px !important;
+    gap: 24px;
+}
+
+.sidebar .image {
+    width: 100%; 
+    height: 36px;
+}
+
+.sidebar .menu{
+    width: 256px; 
+    display: flex; 
+    flex-direction: column; 
+    font-family: Manrope; /* Body */
+    font-size: 14px; 
+    line-height: 22px; 
+    font-weight: 400; 
+    opacity: 1; 
+    gap: 16px; 
+}
+
+.menu .menuItem{
+    padding: 10px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 10px;
+    color: #565E6CFF;
+    white-space: nowrap;
+    border-radius: 6px;
+}
+
+.menu .menuItem.active {
+    font-weight: 700;
+    background: #F44B87FF;
+    color: #FFFFFF;
+}
+
+.menu .menuItem.active .bx {
+    color: #FFFFFF; /* Màu của biểu tượng khi active */
+}
+
+.menu .menuItem .bx{
+    font-size: 24px;  /* Kích thước */
+    color: #565E6CFF;
+}
+
+.sidebar .group {
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+}
+
+
+  

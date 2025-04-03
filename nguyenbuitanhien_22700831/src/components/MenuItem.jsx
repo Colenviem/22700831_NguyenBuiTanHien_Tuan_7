@@ -1,11 +1,15 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 const MenuItem = ( {menuItem} ) => {
   return (
-    <div>
-        {/* <img src={menuItem.image} alt={menuItem.menuName} /> */}
-        <h3>{menuItem.menuName}</h3>
-    </div>
+    <NavLink 
+      to={menuItem.path}
+      className={({ isActive }) => isActive ? "menuItem active" : "menuItem"}
+    >
+        <i className={menuItem.icon}></i>
+        <p>{menuItem.menuName}</p>
+    </NavLink>
   )
 }
 
