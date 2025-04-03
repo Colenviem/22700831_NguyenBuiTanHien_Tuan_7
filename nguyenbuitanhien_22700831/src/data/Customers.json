@@ -47,12 +47,66 @@
         },
         {
           "avatar": "/src/assets/images/Avatar (5).png",
-          "customerName": "Hailey Adams",
-          "companyName": "FlowRush",
-          "orderValue": "$922",
-          "orderDate": "10/06/2023",
-          "status": "Completed",
+          "customerName": "Sophia Martinez",
+          "companyName": "TechFlow",
+          "orderValue": "$888",
+          "orderDate": "15/06/2023",
+          "status": "Pending",
           "id": "6"
+        },
+        {
+          "avatar": "/src/assets/images/Avatar.png",
+          "customerName": "Benjamin Wilson",
+          "companyName": "CodeCrafters",
+          "orderValue": "$425",
+          "orderDate": "20/07/2023",
+          "status": "New",
+          "id": "7"
+        },
+        {
+          "avatar": "/src/assets/images/Avatar (1).png",
+          "customerName": "Emily Johnson",
+          "companyName": "InnovateX",
+          "orderValue": "$654",
+          "orderDate": "05/08/2023",
+          "status": "Completed",
+          "id": "8"
+        },
+        {
+          "avatar": "/src/assets/images/Avatar (2).png",
+          "customerName": "Michael Anderson",
+          "companyName": "SmartSolutions",
+          "orderValue": "$702",
+          "orderDate": "12/09/2023",
+          "status": "In-progress",
+          "id": "9"
+        },
+        {
+          "avatar": "/src/assets/images/Avatar (3).png",
+          "customerName": "Charlotte White",
+          "companyName": "NexaTech",
+          "orderValue": "$380",
+          "orderDate": "27/09/2023",
+          "status": "Pending",
+          "id": "10"
+        },
+        {
+          "avatar": "/src/assets/images/Avatar (4).png",
+          "customerName": "Daniel Roberts",
+          "companyName": "VisionaryCorp",
+          "orderValue": "$590",
+          "orderDate": "10/10/2023",
+          "status": "New",
+          "id": "11"
+        },
+        {
+          "avatar": "/src/assets/images/Avatar (5).png",
+          "customerName": "Olivia Scott",
+          "companyName": "FutureWave",
+          "orderValue": "$950",
+          "orderDate": "18/11/2023",
+          "status": "Completed",
+          "id": "12"
         }
     ]
 }
