@@ -1,0 +1,34 @@
+{
+    "menu": [
+        {
+            "menuName": "Dashboard",
+            "image": "/src/assets/images/Squares four 1.png",
+            "id": "1"
+        },
+        {
+            "menuName": "Projects",
+            "image": "/src/assets/images/Folder.png",
+            "id": "2"
+        },
+        {
+            "menuName": "Teams",
+            "image": "/src/assets/images/Groups.png",
+            "id": "3"
+        },
+        {
+            "menuName": "Analytics",
+            "image": "/src/assets/images/Pie chart.png",
+            "id": "4"
+        },
+        {
+            "menuName": "Messages",
+            "image": "/src/assets/images/Chat.png",
+            "id": "5"
+        },
+        {
+            "menuName": "Integrations",
+            "image": "/src/assets/images/Code.png",
+            "id": "6"
+        }
+    ]
+}
