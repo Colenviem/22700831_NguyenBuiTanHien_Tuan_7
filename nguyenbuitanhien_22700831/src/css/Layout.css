@@ -8,12 +8,11 @@
         "sidebar content";
     grid-template-columns: 288px auto;
     grid-template-rows: 68px auto auto; 
-    gap: 2px;
+    gap: 1px;
     background-color: #fff;
 }
 
 .container > div {
-    background-color: chocolate;
     padding: 10px;
 }
 

@@ -1,0 +1,47 @@
+.header{
+    padding: 16px 28px !important;
+    border-radius: 0px; 
+    box-shadow: 0px 0px 1px #171a1f26, 0px 0px 2px #171a1f33; /* shadow-xs */
+}
+
+.header .text {
+    font-family: Poppins; /* Heading */
+    font-size: 24px; 
+    line-height: 36px; 
+    font-weight: 700; 
+    color: #F44B87FF; /* primary-500 */
+}
+
+.header .textbox {
+    position: relative;
+    opacity: 1; 
+}
+
+.header .textbox input {
+    width: 322px; 
+    height: 36px; 
+    padding-left: 34px; 
+    padding-right: 12px; 
+    font-family: Manrope; 
+    font-size: 14px; 
+    line-height: 22px; 
+    font-weight: 400; 
+    background: #F3F4F6FF; /* neutral-200 */
+    border-radius: 6px; /* border-m */
+    border-width: 0px; 
+    outline: none; 
+}
+
+.header .textbox img {
+    position: absolute;
+    top: 9px;
+    left: 12px;
+    width: 16px;
+    height: 16px;
+    fill: #171A1FFF;
+}
+
+.header img{
+    width: 24px; 
+    height: 24px; 
+}

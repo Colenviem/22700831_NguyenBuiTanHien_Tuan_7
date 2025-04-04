@@ -10,13 +10,10 @@ const SideBar = ( {Menu} ) => {
       <div className="image">
         <img src={Logo} alt="Logo" />
       </div>
-
       <MenuLayout Menu = {Menu}></MenuLayout>
-
-        <div className="group">
-            <img src={Group} alt="" />
-        </div>
-      
+      <div className="group">
+          <img src={Group} alt="" />
+      </div>
     </div>
   )
 }

@@ -3,7 +3,7 @@
         {
             "menuName": "Dashboard",
             "icon": "bx bxs-dashboard",
-            "path": "/dashboard",
+            "path": "/",
             "id": "1"
         },
         {

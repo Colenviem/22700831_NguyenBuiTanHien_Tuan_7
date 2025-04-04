@@ -3,11 +3,11 @@ import MenuItem from './MenuItem'
 
 const Menu = ({Menu}) => {
   return (
-        <div className="menu">
-          {Menu.map((menuItem) => {
-            return <MenuItem key={menuItem.id} menuItem={menuItem} />
-          })}
-        </div>
+    <div className="menu">
+      {Menu.map((menuItem) => {
+        return <MenuItem key={menuItem.id} menuItem={menuItem} />
+      })}
+    </div>
   )
 }
 
