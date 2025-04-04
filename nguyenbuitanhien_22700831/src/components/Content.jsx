@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect, useState} from 'react'
 import Card from './Card'
 import DetailReport from './DetailReport'
 import '../css/Content.css'
@@ -9,12 +9,13 @@ import Analytic from './Analytic'
 import Message from './Message'
 import Integration from './Integration'
 
-const Content = ({Overview, Customers}) => {
+const Content = ({Overview}) => {
+
   return (
     <div className="content">
         <Card Card={Overview}></Card>
         <Routes>
-            <Route path="/" element={<DetailReport Customers={Customers} />}></Route>
+            <Route path="/" element={<DetailReport/>}></Route>
             <Route path="/projects" element={<Project />}></Route>
             <Route path="/teams" element={<Team />}></Route>
             <Route path="/analytics" element={<Analytic />}></Route>
